@@ -1,7 +1,7 @@
 const Hangman = function(word, remainingGuesses){
     this.word = word.toLowerCase().split('');
     this. remainingGuesses = remainingGuesses;
-    this.guessLetters = ['c','n']
+    this.guessLetters = ['c','n','e','y','t','j']
 }
 Hangman.prototype.getPuzzle=function(){
     let puzzle = '';
